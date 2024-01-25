@@ -5,7 +5,7 @@ import { useState } from "react"
 import ThemeMode from "./ThemeMode"
 
 
-const Hambur = () => {
+export default function Hambur() {
 
     const [open, setOpen] = useState(false)
 
@@ -60,5 +60,3 @@ const Hambur = () => {
         </section>
     )
 }
-
-export default Hambur
